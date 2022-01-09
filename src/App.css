@@ -1,0 +1,74 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande',
+    'Lucida Sans', Arial, sans-serif;
+}
+
+body {
+  background-image: url(./img/backgroudtodolist.jpg);
+  background-repeat: no-repeat;
+  background-size: 100%;
+}
+
+
+.todo-app {
+  background-color: rgb(157, 157, 158);
+  display: flex;
+  justify-content: start;
+  flex-direction: column;
+  width: 400px;
+  min-height: 500px;
+  text-align: center;
+  margin: 50px auto;
+  border-radius: 20px;
+  border-color: rgb(78, 78, 78);
+  padding-bottom: 32px;
+}
+
+h1 {
+  margin: 32px 0;
+  color: #fff;
+  font-size: 24px;
+}
+
+.todo-input {
+  padding: 14px 32px 14px 16px;
+  border-radius: 20px;
+  border: 2px solid #5d0cff;
+  outline: none;
+  width: 320px;
+  background: #fff;
+  color: rgb(0, 0, 0);
+}
+
+.todo-btn {
+  padding: 16px;
+  margin-left: 5px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  outline: none;
+  background: #754fc2;
+  color: #fff;
+
+}
+
+.todo-row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 4px auto;
+  color: #fff;
+  background: #5d0cff;
+
+  padding: 16px;
+  border-radius: 10px;
+  width: 90%;
+}
+
+.icons {
+  font-size: 20px;
+  cursor: pointer;
+}
